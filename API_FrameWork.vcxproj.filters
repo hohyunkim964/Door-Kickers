@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="gameNode">
+      <UniqueIdentifier>{71e18ebb-4095-48a9-bf64-0101a4b28e62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{ea4c5740-10f5-4349-8ad6-d780ce577129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="singletonBase">
+      <UniqueIdentifier>{1352499b-c472-4ac9-85cb-71b3f3226ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{18fb1c79-f50b-4b9b-a264-e066d2bca54b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL">
+      <UniqueIdentifier>{ee673918-6273-48b6-b9d8-c4d87fd95bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{c6071c33-1efa-44cc-a846-47833fbef4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="타이머">
+      <UniqueIdentifier>{63bdded0-ba64-47dd-adec-960c099f3b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="프로그래스바">
+      <UniqueIdentifier>{dae6b3b8-16b1-4a62-aec4-1313566bf949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="텍스트데이터">
+      <UniqueIdentifier>{00ade87a-93a8-46f2-b42b-4e1b20260dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="로딩">
+      <UniqueIdentifier>{ea0a14ee-3e8e-4fb0-828a-0a99336fa05e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="애니메이션">
+      <UniqueIdentifier>{815067c8-1852-4de4-88c6-942efbfbdbf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="이펙트">
+      <UniqueIdentifier>{a85304e6-b75f-4c0c-8b3c-6a086fab35f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="이펙트\테스트">
+      <UniqueIdentifier>{7b1166a2-82cd-4d0a-b351-16296824b19e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{0c74b167-4f1d-4cdd-a807-adcf040550aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item">
+      <UniqueIdentifier>{17dc7768-43db-4106-b4db-a99b3baa9bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="maptool">
+      <UniqueIdentifier>{7799e796-5a31-43a3-97ca-a1149c81527d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shop">
+      <UniqueIdentifier>{2dd076ae-e00e-4a31-9845-b0934b4ad896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inventory">
+      <UniqueIdentifier>{32229a35-11ce-4830-a82d-1b1993fe8d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="charcter">
+      <UniqueIdentifier>{a3bab6a9-558a-40c0-82a6-6f13b6b6d281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="charcter\Enemy">
+      <UniqueIdentifier>{c4795a05-e4de-4bad-bcb8-c106265fc295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="charcter\Unit">
+      <UniqueIdentifier>{2f87dc9f-4dd2-48af-8bb2-7bdea0ec4631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="charcter\map">
+      <UniqueIdentifier>{17a56ccf-a6d2-40fc-9636-110953b582de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\inGame">
+      <UniqueIdentifier>{6c7a28af-877c-46f8-92ff-c76185f7952b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\inven">
+      <UniqueIdentifier>{96d7b9bb-0f62-4ed8-886c-c36bdc6a9e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\maptool">
+      <UniqueIdentifier>{465eb8b0-bd45-4b7b-ad33-66355d44b6d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\UI">
+      <UniqueIdentifier>{a09a5a65-e8e9-43e0-8351-ab474f7a1d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\shop">
+      <UniqueIdentifier>{471cb35e-2dda-47ec-a302-b2dee473f4c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="API_FrameWork.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>gameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>singletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>타이머</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>프로그래스바</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>텍스트데이터</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>로딩</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>애니메이션</Filter>
+    </ClInclude>
+    <ClInclude Include="animationManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="effectTest.h">
+      <Filter>이펙트\테스트</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>item</Filter>
+    </ClInclude>
+    <ClInclude Include="maptool.h">
+      <Filter>maptool</Filter>
+    </ClInclude>
+    <ClInclude Include="maptiles.h">
+      <Filter>maptool</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>charcter\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="shop.h">
+      <Filter>Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="inventory.h">
+      <Filter>Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>charcter\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="unitSelect.h">
+      <Filter>charcter\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>charcter</Filter>
+    </ClInclude>
+    <ClInclude Include="finishScene.h">
+      <Filter>Scene\inGame</Filter>
+    </ClInclude>
+    <ClInclude Include="deadScene.h">
+      <Filter>Scene\inGame</Filter>
+    </ClInclude>
+    <ClInclude Include="inGameScene.h">
+      <Filter>Scene\inGame</Filter>
+    </ClInclude>
+    <ClInclude Include="invenScene.h">
+      <Filter>Scene\inven</Filter>
+    </ClInclude>
+    <ClInclude Include="maptoolScene.h">
+      <Filter>Scene\maptool</Filter>
+    </ClInclude>
+    <ClInclude Include="shopScene.h">
+      <Filter>Scene\shop</Filter>
+    </ClInclude>
+    <ClInclude Include="gameScene.h">
+      <Filter>Scene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="mainScene.h">
+      <Filter>Scene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="soundoption.h">
+      <Filter>Scene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="gameMap.h">
+      <Filter>charcter\map</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>gameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>타이머</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>프로그래스바</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>텍스트데이터</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>애니메이션</Filter>
+    </ClCompile>
+    <ClCompile Include="animationManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="effectTest.cpp">
+      <Filter>이펙트\테스트</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>item</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="maptool.cpp">
+      <Filter>maptool</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>charcter\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="shop.cpp">
+      <Filter>Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="inventory.cpp">
+      <Filter>Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>charcter\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="unitSelect.cpp">
+      <Filter>charcter\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>charcter</Filter>
+    </ClCompile>
+    <ClCompile Include="finishScene.cpp">
+      <Filter>Scene\inGame</Filter>
+    </ClCompile>
+    <ClCompile Include="deadScene.cpp">
+      <Filter>Scene\inGame</Filter>
+    </ClCompile>
+    <ClCompile Include="inGameScene.cpp">
+      <Filter>Scene\inGame</Filter>
+    </ClCompile>
+    <ClCompile Include="invenScene.cpp">
+      <Filter>Scene\inven</Filter>
+    </ClCompile>
+    <ClCompile Include="maptoolScene.cpp">
+      <Filter>Scene\maptool</Filter>
+    </ClCompile>
+    <ClCompile Include="shopScene.cpp">
+      <Filter>Scene\shop</Filter>
+    </ClCompile>
+    <ClCompile Include="gameScene.cpp">
+      <Filter>Scene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="mainScene.cpp">
+      <Filter>Scene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="soundoption.cpp">
+      <Filter>Scene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="gameMap.cpp">
+      <Filter>charcter\map</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

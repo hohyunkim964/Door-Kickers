@@ -1,0 +1,19 @@
+﻿  unitSelect.cpp
+c:\users\home\desktop\door\door kickers\unitselect.cpp(33): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\home\desktop\door\door kickers\unitselect.cpp(162): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\home\desktop\door\door kickers\unitselect.cpp(163): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\home\desktop\door\door kickers\unitselect.cpp(166): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\home\desktop\door\door kickers\unitselect.cpp(167): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\home\desktop\door\door kickers\unitselect.cpp(170): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\home\desktop\door\door kickers\unitselect.cpp(171): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\home\desktop\door\door kickers\unitselect.cpp(174): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\home\desktop\door\door kickers\unitselect.cpp(175): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\home\desktop\door\door kickers\unitselect.cpp(182): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\home\desktop\door\door kickers\unitselect.cpp(183): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\home\desktop\door\door kickers\unitselect.cpp(186): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\home\desktop\door\door kickers\unitselect.cpp(187): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\home\desktop\door\door kickers\unitselect.cpp(190): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\home\desktop\door\door kickers\unitselect.cpp(191): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\home\desktop\door\door kickers\unitselect.cpp(194): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\home\desktop\door\door kickers\unitselect.cpp(195): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  API_FrameWork.vcxproj -> C:\Users\HOME\Desktop\door\Door Kickers\Debug\API_FrameWork.exe
